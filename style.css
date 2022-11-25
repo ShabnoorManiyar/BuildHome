@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap");
+* {
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  background: #0c0d0d;
+}
+section h2 {
+  text-transform: capitalize;
+  font-size: 35px;
+  font-weight: 600;
+  color: #064597;
+}
+
+/* header */
+.navbar {
+  height: 100px;
+  box-shadow: 0 -6px 20px 5px #064597;
+}
+.navbar-nav a {
+  font-size: 14px;
+  text-transform: capitalize;
+  font-weight: 500;
+  margin-left: 8px;
+}
+.navbar-light .navbar-brand {
+  color: #fff;
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+.navbar-light .navbar-brand:focus,
+.navbar-light .navbar-brand:hover {
+  color: #000;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: #fff;
+}
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+  color: rgb(238, 197, 31);
+}
+
+.navbar-toggler {
+  padding: 1px 5px;
+  font-size: 18px;
+  line-height: 0.3;
+  background: #fff;
+}
+/*  */
+
+.overview,
+.buildhome,
+.configuration,
+.amenities,
+.location,
+.contact {
+  padding-top: 100px;
+  box-shadow: 0 -3px 20px 10px #97b9e4;
+  /* padding-bottom: 100px; */
+}
+.home .home-main {
+  margin: 50px auto;
+  border-radius: 10px;
+  padding: 50px 0px;
+  box-shadow: 0 0 20px 2px rgba(69, 68, 66, 0.5);
+}
+.btn-one {
+  text-decoration: none;
+  background: #12488f;
+  border-radius: 20px;
+  padding: 10px 20px;
+  /* margin-right: 30px; */
+  border: 2px solid #12488f !important;
+  color: #fff;
+}
+.text-box p {
+  color: #fff;
+}
+.btn-one:hover {
+  background: none !important;
+  color: #064597;
+}
+.configuration img {
+  width: 400px;
+  height: 400px;
+}
+.img-fluid {
+  vertical-align: middle;
+  max-width: 100%;
+  height: auto;
+}
+
+.buildhome .card {
+  box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.15);
+}
+.configuration .card {
+  box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.15);
+}
+.amenities .card-body i {
+  font-size: 50px;
+}
+
+.footer-input {
+  font-size: 14px;
+  background-clip: padding-box;
+  color: #495057;
+  border: 1px solid rgb(31, 30, 30);
+  margin-top: 10px;
+  background: whitesmoke;
+}
+
+/*  */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .card {
+    margin-bottom: 30px;
+  }
+  .img-area img {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .navbar-nav {
+    text-align: right;
+  }
+
+  .text-box {
+    padding-top: 50px;
+  }
+  .card {
+    margin-bottom: 30px;
+  }
+}
